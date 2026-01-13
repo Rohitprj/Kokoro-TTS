@@ -1,3 +1,5 @@
+process.env.HF_HUB_DISABLE_XET = "1";
+
 import express from "express";
 import { KokoroTTS } from "kokoro-js";
 import fs from "fs";
