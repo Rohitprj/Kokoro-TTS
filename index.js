@@ -17,13 +17,26 @@ async function main() {
 
   // 2. Generate speech
   const audio = await tts.generate(
-    `As VinitaSri says, setting an intention begins with clarity and focus on what you truly desire to embody in your life. Reflect on your values and what resonates deeply within you. Write down your intention in a positive and present-tense format, as if it is already happening. For example, instead of saying, "I want to be abundant," say, "I am living in abundance." This aligns your energy with your intention, allowing the universe to respond more effectively. Embrace this practice with devotion and surrender, trusting that your clear intention will guide your actions and experiences. Would you like to explore more about intentions or related practices?`,
+    `As VinitaSri says, setting an intention begins with clarity
+    and focus on what you truly desire to embody in your life.
+    Reflect on your values and what resonates deeply within you.
+    Write down your intention in a positive and present-tense format, 
+    as if it is already happening. For example, instead of saying, 
+    "I want to be abundant," say, "I am living in abundance." 
+    This aligns your energy with your intention, 
+    allowing the universe to respond more effectively.
+     Embrace this practice with devotion and surrender, 
+     trusting that your clear intention will guide your 
+     actions and experiences. Would you like to explore 
+     more about intentions or related practices?`,
     {
       //   voice: "af_heart",
       //   voice: "am_adam",
       //   voice: "af_sky",
       //   voice: "am_echo",
-      voice: "af_sarah",
+      // voice: "af_sarah",
+      // voice: "bf_emma",
+      voice: "bf_isabella",
     }
   );
 
